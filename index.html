@@ -1,0 +1,278 @@
+<Html>
+
+<head>
+    <title>
+        Registration Page
+    </title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+
+<body>
+
+    <div class="container">
+        <form action="">
+            <div class="header">
+                <hr class="top-head">
+                <h1>PATIENT DETAILS FOR ADMISSION IN THE HOSPITAL / अस्पताल में भर्ती के लिए रोगी का विवरण</h1>
+                <p>IMPORTANT NOTE - LIFT/ELEVATOR FACILITY IS UNDER RENOVATION/MAINTENANCE DURING FEBRUARY, MARCH AND
+                    APRIL
+                    2023, THEREFORE KINDLY PROVIDE CONSENT TO ACCOMMODATE IN GUEST HOUSE IF YOU ARE UNABLE TO CLIMB
+                    STAIRS
+                </p>
+                <hr><br>
+            </div>
+            <label class="required"> NAME OF PATIENTS / रोगी का नाम </label>
+            <input type="text" name="name" id="name" placeholder="Your answer" required /> <br> <br>
+            <label class="required"> AGE/उम्र </label>
+            <input type="text" name="age" placeholder="Your answer" required /> <br> <br>
+            <label class="required"> CITY/शहर </label>
+            <input type="text" name="city" placeholder="Your answer" /> <br> <br>
+
+
+            <label class="required">
+                SEX / लिंग
+            </label><br>
+            <input type="radio" name="male" /> Male / पुरुष <br>
+            <input type="radio" name="female" /> Female / महिला <br>
+            <input type="radio" name="other" /> Prefer not to say / नहीं बताना है
+
+            <br>
+            <label class="required">
+                PHONE NUMBER ( WHATSAPP NUMBER) / व्हाट्सप्प नंबर
+            </label>
+            <input type="text" name="phone" size="10" placeholder="Your number" required />
+
+            <label class="required">
+                PHONE NUMBER (CALLING NUMBER) / फ़ोन नंबर
+            </label>
+            <input type="text" name="phone" size="10" placeholder="Your number" required /> 
+
+            <label class="required">
+                CHIEF COMPLAINTS (PROBLEM) / मुख्य समस्या / शिकायत
+            </label>
+            <textarea cols="80" rows="3" value="address" placeholder="Your answer write here">
+</textarea>
+
+            <label class="required">SINCE HOW LONG YOU HAVE THIS PROBLEM/COMPLAINT? / आपको यह समस्या / शिकायत कब से है?
+</label>
+            <textarea cols="80" rows="3" value="address" placeholder="Your answer write here">
+</textarea>
+
+
+            <label class="required">
+                WHEN ARE YOU PLANNING TO COME ? / आप यहाँ कब आना चाहते हैं ?
+</label>
+          
+            <textarea cols="80" rows="3" value="address" placeholder="Your answer Write here">
+</textarea>
+            <br> <br>
+
+            <label class="required">
+                PLANNING TO COME IN DATES OF 2023
+                *
+            </label><br>
+            <input type="radio" id="june" name="june">
+            <label for="june"> 21 JUNE - 30 JUNE (10 DAYS CAMP)</label><br>
+            <input type="radio" id="july" name="july">
+            <label for="july"> 03 JULY - 12 JULY (10 DAYS CAMP)</label><br>
+            <input type="radio" id="june" name="june">
+            <label for="june"> 14 JULY - 23 JULY (10 DAYS CAMP)</label><br>
+            <input type="radio" id="june" name="june">
+            <label for="june"> 30 JULY - 08 AUG (10 DAYS CAMP)</label><br>
+            <input type="radio" id="june" name="june">
+            <label for="june"> 11 AUG - 20 AUG (10 DAYS CAMP)</label><br>
+            <input type="radio" id="june" name="june">
+            <label for="june"> 22 AUG - 29 AUG (08 DAYS IPD Slot)</label><br>
+            <input type="radio" id="june" name="june">
+            <label for="june"> 12 SEPT - 21 SEPT (10 DAYS CAMP)</label><br>
+            <input type="radio" id="june" name="june">
+            <label for="june"> 14 OCT - 23 OCT (10 DAYS CAMP)</label><br>
+            <input type="radio" id="june" name="june">
+            <label for="june"> 17 NOV - 26 NOV (10 DAYS CAMP)</label><br>
+            <input type="radio" id="june" name="june">
+            <label for="june"> 12 DEC - 21 DEC (10 DAYS CAMP)</label><br>
+
+
+
+            <label class="required">
+                DO YOU WANT ADMISSION IN DORMITORY OR PRIVATE ROOM ? / क्या आप डारमेट्री में प्रवेश चाहते हैं या
+                प्राइवेट
+                रूम में ?
+            </label><br>
+            <input type="radio" id="dormi" name="dormi">
+            <label for="dormi"> DORMITORY / डारमेट्री</label><br>
+            <input type="radio" id="nonac" name="nonac">
+            <label for="nonac"> NON AC ROOM नॉन ऐसी रूम</label><br>
+            <input type="radio" id="acroom" name="acroom">
+            <label for="acroom"> AC ROOM / ऐसी रूम</label><br>
+            <input type="radio" id="daycare" name="daycare">
+            <label for="daycare"> DAYCARE / गैर आवासीय</label><br>
+            <input type="radio" id="other" name="other">
+            <label for="other"> Other: </label><br>
+            <textarea cols="80" rows="2" placeholder="Your answer text here" required></textarea>
+
+            <label class="required">
+                CHOOSE WHERE YOU WISH TO TAKE NATUROPATHY TREATMENTS / आप प्राकृतिक चिकित्सा उपचार कहाँ लेना चाहते हैं
+            </label><br>
+            <input type="radio" id="general" name="general">
+            <label for="general">GENERAL TREATMENT WING (INCLUDED IN CAMP PACKAGE) / सामान्य उपचार हॉल (शिविर पैकेज में
+                शामिल)</label>
+            <input type="radio" id="private" name="private">
+            <label for="private"> PRIVATE TREATMENT ROOMS (EXCLUDED FROM CAMP PACKAGE) / निजी कमरा ((शिविर पैकेज से
+                अलग))</label>
+
+            <label class="required">
+                CHOOSE IF YOU WISH TO TAKE EXTRA SPECIAL TREATMENTS (EXCLUDED FROM CAMP PACKAGE) / क्या आप विशेष उपचार
+                लेना
+                चाहते हैं (शिविर पैकेज से अलग)
+                <p>NOTE- <span>You are opting for your preferences of special treatments according to your health
+                        condition,
+                        but doctor's decision will be final as per your their</span> <br> <br>
+                    <span>यह उपचार के लिए सलाह नहीं है। आप विकल्प चुन रहे हैं, लेकिन डॉक्टर का निर्णय आपकी स्वास्थ्य
+                        स्थिति
+                        के अनुसार अंतिम होगा।</span>
+                </p>
+            </label><br>
+            <input type="checkbox" id="acupressure" name="acupressure">
+            <label for="acupressure"> ACUPRESSURE / एक्यूप्रेशर</label><br>
+            <input type="checkbox" id="acupuncture" name="acupuncture">
+            <label for="acupuncture"> ACUPUNCTURE / एक्यूपंक्चर</label><br>
+            <input type="checkbox" id="physio" name="physio">
+            <label for="physio"> PHYSIOTHERAPY / फिजियोथेरेपी</label><br>
+            <input type="checkbox" id="colon" name="colon">
+            <label for="colon"> COLON HYDROTHERAPY / कोलन हयड्रोथेरपी</label><br>
+            <input type="checkbox" id="ozone" name="ozone">
+            <label for="ozone"> OZONE THERAPY / ओजोन थेरेपी</label><br>
+            <input type="checkbox" id="ayurvedic" name="ayurvedic">
+            <label for="ayurvedic"> AYURVEDIC PANCHKARMA / आयुर्वेदिक पंचकर्मा</label><br>
+            <input type="checkbox" id="none" name="none">
+            <label for="none"> NONE / कोई नहीं</label><br>
+            </label><br>
+
+
+            <label class="required">
+                ARE YOU SUFFERING FROM ANY OF THE FOLLOWING ? / क्या आप निम्नलिखित में से किसी से भी पीड़ित हैं?
+            </label><br>
+            <input type="checkbox" id="bloodpress" name="bloodpress">
+            <label for="bloodpress"> BLOOD PRESSURE ISSUE / रक्त चाप की तकलीफ</label><br>
+            <input type="checkbox" id="diabetes" name="diabetes">
+            <label for="diabetes"> DIABETES MELLITUS / मधुमेह की बीमारी</label><br>
+            <input type="checkbox" id="obesity" name="obesity">
+            <label for="obesity"> BESITY / मोटापा</label><br>
+            <input type="checkbox" id="thyroid" name="thyroid">
+            <label for="thyroid"> THYROID / थयरॉइड की तकलीफ</label><br>
+            <input type="checkbox" id="none" name="none">
+            <label for="none"> NONE OF THE ABOVE / उपर्युक्त में से कोई भी नहीं</label><br>
+
+
+
+            <label class="required">
+                CAN YOU WALK 1 KM WITHOUT SUPPORT? / क्या आप समर्थन के बिना 1 किमी चल सकते हैं?
+            </label><br>
+            <input type="radio" id="yes" name="yes">
+            <label for="yes"> YES / हाँ</label>
+            <input type="radio" id="no" name="no">
+            <label for="no"> NO / नहीं</label>
+            <input type="radio" id="yes" name="yes">
+            <label for="yes"> Other:</label>
+            <textarea cols="80" rows="2" placeholder="If other text here" required></textarea>
+            <br><br>
+
+            <label class="required">
+                CAN YOU CLIMB 2/3 FLOORS STAIRS WITHOUT SUPPORT? / क्या आप बिना किसी सहारे
+                के 2/3 मंजिल सीढ़ियां चढ़ सकते हैं?</label><br>
+            <input type="radio" id="yes" name="yes">
+            <label for="yes"> YES / हाँ</label>
+            <input type="radio" id="no" name="no">
+            <label for="no"> NO / नहीं</label>
+
+
+            <label class="required">
+                HOW DID YOU HEAR ABOUT SANT HIRDARAM YOGA AND NATURE CURE HOSPITAL?
+                / संत हिरदाराम योग एवं नेचर क्योर हॉस्पिटल के बारे में आपने कैसे सुना? </label><br>
+            <textarea cols="80" rows="2" value="address" placeholder="Your answer Write here"></textarea>
+
+            <label class="required">
+                ARE YOUR SUFFERING FROM ANY HEART RELATED COMPLAINT? / क्या आप
+                किसी भी ह्रदय से सम्बंधित तकलीफ से पीड़ित हैं ?
+            </label>
+            <input type="radio" id="yes" name="yes">
+            <label for="yes"> YES / हाँ</label>
+            <input type="radio" id="no" name="no">
+            <label for="no"> NO / नहीं</label>
+            <input type="radio" id="yes" name="yes">
+            <label for="yes"> Other:</label>
+            <textarea cols="80" rows="2" placeholder="Your answer write here" required></textarea>
+
+            <label class="required">
+                ARE YOUR SUFFERING FROM ANY KIDNEY RELATED ISSUE? /
+                क्या आप किसी भी गुर्दा सम्बंधित तकलीफ से पीड़ित हैं ?
+            </label>
+            <input type="radio" id="yes" name="yes">
+            <label for="yes"> YES / हाँ</label>
+            <input type="radio" id="no" name="no">
+            <label for="no"> NO / नहीं</label>
+            <input type="radio" id="yes" name="yes">
+            <label for="yes"> Other:</label>
+            <textarea cols="80" rows="2" required></textarea>
+
+            <label class="required">
+                ARE YOUR SUFFERING FROM ANY MENTAL
+                DISORDER? / क्या आप किसी भी मानसिक विकार
+                से पीड़ित हैं? </label>
+            <input type="radio" id="yes" name="yes">
+            <label for="yes"> YES / हाँ</label>
+            <input type="radio" id="no" name="no">
+
+            <label for="no"> NO / नहीं</label>
+            <input type="radio" id="yes" name="yes">
+
+            <label for="yes"> Other:</label>
+            <textarea cols="80" rows="2" placeholder="Your answer write here" required></textarea><br> <br>
+
+
+            <label class="required">
+                HISTORY OF SURGERY, IF YES,SPECIFY THE SURGERY YOU HAVE UNDERGONE. OTHERWISE, WRITE
+                NO IN THE BLANK. / सर्जरी का इतिहास, यदि हां, तो आपके द्वारा की गई सर्जरी को निर्दिष्ट करें।
+                अन्यथा,रिक्त स्थान में नहीं लिखें।
+            </label> <br>
+            <textarea cols="80" rows="2" value="address" placeholder="Your answer Write here"></textarea>
+
+            <label class="required">DO YOU HAVE - CGHS/ECHS/STAR HEALTH/AYUSHMAN CAPF CARD </label><br>
+            <label class="upload-file" for="upload"><i class="fa fa-upload"> Add file</i> </label>
+            <input type="file" id="upload" hidden/>
+
+
+            <label class="required">
+                Do you give your consent to accommodate yourself in our guest house? ( Alternative stay of IPD. Our
+                guest house is 200 m [at walking distance] from the hospital premises. Well equipped, fully furnished
+                and conveyance will be provided by the hospital management. )
+                / क्या आप हमारे गेस्ट हाउस में खुद को समायोजित करने के लिए अपनी सहमति देते हैं? (आईपीडी के वैकल्पिक
+                प्रवास। हमारा गेस्ट हाउस अस्पताल परिसर से 200 मीटर [पैदल दूरी पर] है। अस्पताल प्रबंधन द्वारा सुसज्जित,
+                पूरी तरह से सुसज्जित और वाहन प्रदान किया जाएगा। )</label>
+            <input type="radio" id="yes" name="yes">
+            <label for="yes"> YES / हाँ</label>
+            <input type="radio" id="no" name="no">
+
+            <label for="no"> NO / नहीं</label>
+            <input type="radio" id="yes" name="yes">
+
+            <label for="yes"> Other:</label>
+            <textarea cols="80" rows="2" placeholder="Your answer text here" required></textarea>
+
+            <label class="required">INVESTIGATIONS / जांच</label><br>
+            <input type="file" id="upload" hidden/>
+            <label class="upload-file" for="upload"><i class="fa fa-upload"> Add file</i> </label>
+            <p>A copy of your responses will be emailed to the address you provided.</p>
+
+            <input type="submit" value="Back" />
+            <input type="submit" value="Submit" />
+
+        </form>
+    </div>
+</body>
+
+</html>
